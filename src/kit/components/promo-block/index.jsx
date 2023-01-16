@@ -1,10 +1,19 @@
 import React from 'react';
-import styles from "./style.module.css";
+import styles from "./style.module.scss";
 import {Link} from "react-router-dom";
+import styled from 'styled-components';
+
+const Title = styled.div`
+  margin-top: 156px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 118px;
+`;
 
 const PromoBlock = () => {
   return (
-    <div className={styles['main-title-wrap']}>
+    <Title>
+     <div>
       <h1 className={styles.title}>
         Creative <span>Landing Page</span>
       </h1>
@@ -16,7 +25,8 @@ const PromoBlock = () => {
           Read more about us
         </Link>
       </div>
-    </div>
+     </div>
+    </Title>
   );
 };
 

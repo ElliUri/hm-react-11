@@ -1,13 +1,12 @@
 import React from 'react';
 import LogoIcon from './../../shared/images/ozon-logo.png'
-import styles from "./style.module.css";
+import styles from "./style.module.scss";
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
 import HomePage from "../../../pages/HomePage/index";
-
 
 const Logo = () => {
   return (

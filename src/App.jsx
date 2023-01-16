@@ -7,8 +7,7 @@ import {
   Route
 } from 'react-router-dom';
 import Header from "./kit/components/header";
-import common from './kit/shared/styles/common.module.css'
-
+import common from '../src/kit/shared/styles/common.module.scss'
 function App() {
   return (
  <Router>

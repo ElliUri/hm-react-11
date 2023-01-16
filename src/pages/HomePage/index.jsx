@@ -1,7 +1,7 @@
 import React from "react";
 import PromoBlock from "../../kit/components/promo-block";
 import AboutUsCard from "../../kit/components/about-us-card";
-import styles from './style.module.css'
+import styles from './style.module.scss'
 
 const HomePage = () => {
   return (

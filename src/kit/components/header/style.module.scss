@@ -1,3 +1,4 @@
+$color3: #333333;
 $size: 16px;
 
 .header {
@@ -10,6 +11,6 @@ $size: 16px;
   display: inline-block;
   font-weight: 700;
   font-size: $size;
-  color: #333333;
+  color: $color3;
   margin-right: $size;
 }
