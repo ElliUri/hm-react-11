@@ -1,3 +1,5 @@
+$size: 16px;
+
 .header {
   display: flex;
   align-items: center;
@@ -7,7 +9,7 @@
 .nav-list-item {
   display: inline-block;
   font-weight: 700;
-  font-size: 16px;
+  font-size: $size;
   color: #333333;
-  margin-right: 15px;
+  margin-right: $size;
 }

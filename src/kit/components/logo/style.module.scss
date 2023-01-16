@@ -1,0 +1,12 @@
+$hundred: 100%;
+
+.logo {
+    display: block;
+    width: 129px;
+    height: 43px;
+  }
+  .logo-icon {
+    width: $hundred;
+    height: $hundred;
+    object-fit: contain;
+  }
